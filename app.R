@@ -1,5 +1,6 @@
 library(shiny)
 library(shinythemes)
+library(rvest)
 
 shinyApp(
     ui = fluidPage(theme = shinytheme("cerulean"),
@@ -17,7 +18,8 @@ shinyApp(
                                                         br(),
                                                         a(icon("github"), href="https://github.com/hcji"),
                                                         a(icon("researchgate"), href="https://www.researchgate.net/profile/Hongchao_Ji"),
-                                                        a(icon("orcid"), href="https://orcid.org/0000-0002-7364-0741")
+                                                        a(icon("orcid"), href="https://orcid.org/0000-0002-7364-0741"),
+                                                        a(icon("google"), href="https://scholar.google.com/citations?hl=zh-CN&user=L6InqB8AAAAJ")
                                                         )),
                                            mainPanel(div(style = "font-size: 140%",
                                                      h2("Biography"),
