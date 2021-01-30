@@ -51,9 +51,11 @@ shinyApp(
                                        sidebarLayout(
                                            sidebarPanel(width = 2,
                                                         h4('Total Publications: 13'),
-                                                        h4('Total Citations: > 87'),
-                                                        h4('H-index: 5'),
-                                                        h5('Data from ResearchGate')
+                                                        h4('Total Citations: > 84'),
+                                                        h4('H-index: 6'),
+                                                        h4('Citations Per Paper: 7.64'),
+                                                        h5('Data from Web of Science'),
+                                                        h5('update: Jan 30, 2021')
                                                         ),
                                            mainPanel(div(style = "font-size: 120%",
                                                          h2("First/Corresponding author publications"),
