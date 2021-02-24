@@ -1,6 +1,5 @@
 library(shiny)
 library(shinythemes)
-library(rvest)
 
 shinyApp(
     ui = fluidPage(theme = shinytheme("cerulean"),
@@ -53,11 +52,11 @@ shinyApp(
                                        sidebarLayout(
                                            sidebarPanel(width = 2,
                                                         h4('Total Publications: 13'),
-                                                        h4('Total Citations: > 84'),
+                                                        h4('Total Citations: > 100'),
                                                         h4('H-index: 6'),
-                                                        h4('Citations Per Paper: 7.64'),
+                                                        h4('Citations Per Paper: 7.69'),
                                                         h5('Data from Web of Science'),
-                                                        h5('update: Jan 30, 2021')
+                                                        h5('update: Feb 24, 2021')
                                                         ),
                                            mainPanel(div(style = "font-size: 120%",
                                                          h2("First/Corresponding author publications"),
